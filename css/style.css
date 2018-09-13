@@ -21,7 +21,10 @@ font-family:roboto,sans-serif;
 font-size: 12px;
 
 }
-
+*{
+outline:none;
+box-sizing:border-box;
+}
 .overlay {
 widows: 100%;
 height:100%;
@@ -48,6 +51,9 @@ background:rgba(0,0,1,0.2)
 #top-info .col-7 {
 padding-top: 6px;
 
+}
+#top-info .col-7 li {
+float: left;
 }
 
 #top-info .col-7 span{
@@ -95,12 +101,17 @@ right: 12px;
 top: 6px;
 }
 
+
+#top-info .col-2 li {
+float: left;
+}
+
+
 #top-info .col-2 i {
 color:white;
 font-size:1.16em;
-padding-left: 19px;
+margin-left: 17px;
 padding-top: 6px;
-padding-left: 19px;
 transition: all .3s ease;
 
 }
@@ -162,6 +173,8 @@ transition: .3s ;
 
 #nav .top-menu .col-10>ul>:nth-child(2)>a{
 padding-bottom:17px; 
+padding-left: 8px !important;
+margin-left: 13px;
 }
 
 #nav .top-menu .col-10 .down-menu {
@@ -581,7 +594,7 @@ cursor: pointer;
 /* samples */
 #samples .col-3 {
 width:25%;
-height:310px;
+height:309px;
 margin:0px !important;
 overflow: hidden;
 position: relative;
@@ -685,7 +698,7 @@ margin:0px !important;
 width: 355px;
 height: 211px;
 margin-right: 15px !important;
-margin-top: 12px !important;
+margin-top: 4px !important;
 }
 
 #service .service-info>:last-child{
@@ -725,14 +738,14 @@ color:#585858;
 }
 
 #service .service-info {
-width:97.3%;
-height: 317px;
+width:100%;
 background:#292827; 
 color:#9E9D9A;
 padding: 15px;
 line-height: 23px;
 font-size: 1.14em;
 text-align: center;
+padding-bottom: 21%;
 
 }
 
